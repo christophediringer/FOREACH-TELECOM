@@ -1,0 +1,104 @@
+@font-face{
+    font-family: Danube;
+    src: url(./assets/fonts/Danube.ttf);
+}
+@font-face{
+    font-family: Montserrat;
+    src: url(./assets/fonts/Montserrat.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"roboto"
+}
+
+
+/* header */
+
+header{
+    background-color: white;
+}
+.header_button{
+    list-style-type :none;
+}
+#header_container{
+    padding: 10px;
+    max-width: 1600px;
+    margin:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-family: Danube;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+header ul{
+    display: flex;
+}
+header li{
+    margin-left: 10px;
+}
+
+/* Jumbotron */
+
+#jumbotron {
+    height:500px;
+    background-image: url(./assets/images/jumbotron_image.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section téléphone */
+.Téléphonie{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.téléphones{
+    width: 200px;
+    margin: 0 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.téléphones img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.téléphones.name{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.téléphone.price{
+    margin: 10px 0;
+    font-size: 24px;
+    color: #e44d26;
+}
+.telephone.paiement{
+    font-size: 14px;
+    color: #666;
+}
+.section_titre{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
